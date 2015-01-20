@@ -1,6 +1,9 @@
-# HW #1 Provisioning Servers
+# HW #1 Question
 
-Automatically provisioning a computational resource will be one of the most important skills for you to master in your career.  You have gained experience using [digitalocean](https://developers.digitalocean.com/v2/) to automatically create virtual images on a hosted server. 
+Create a simple program that will
+Part I. Authenicate to AWS
+Part II. Demonstrate a simple API call.
+After completing your program, write a simple description of what you did, and include a screenshot demonstrating your API call.
 
 # Solution
 
