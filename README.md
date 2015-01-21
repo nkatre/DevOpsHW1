@@ -32,7 +32,7 @@ the credentials file in your source directory.
 constructor.
 
 ### Part II. Demonstration of AmazonSQS (Amazon Simple Queue Service) API call
-<p>To demonstrate the API call to AmazonSQS, I have implemented the following methods:
+<p>To demonstrate the API call to AmazonSQS, I have implemented the following methods:</p>
 1.  Authenticate to AWS
 2.  Create a new SQS queue called MyQueue
 3.  Listing all queues in your account.
