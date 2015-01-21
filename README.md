@@ -26,16 +26,16 @@ template, and be sure to move the file to the default location
 the credentials file in your source directory.
 
 ### Part I. Authentication to AWS
-The ProfileCredentialsProvider class will return your [default] credential profile by reading from the credentials file located at (~/.aws/credentials)
-The obtained credentials are then used to authenticate to AmazonSQS using AmazonSQSClient class. The authentication is done using AmazonSQSClient(credentials)
-constructor.
+<p>The ProfileCredentialsProvider class will return your [default] credential profile by reading from the credentials file located at (~/.aws/credentials)</p>
+<p>The obtained credentials are then used to authenticate to AmazonSQS using AmazonSQSClient class. The authentication is done using AmazonSQSClient(credentials)
+constructor.</p>
 
 ### Part II. Demonstration of AmazonSQS (Amazon Simple Queue Service) API call
-To demonstrate the API call to AmazonSQS, I have implemented the following methods:
-1. Authenticate to AWS
-2. Create a new SQS queue called MyQueue
-3. Listing all queues in your account.
-4. Sending a message to MyQueue
-5. Receiving messages from MyQueue
-6. Deleting a message
-7. Deleting the test queue
+<p>To demonstrate the API call to AmazonSQS, I have implemented the following methods:</p>
+1.  Authenticate to AWS
+2.  Create a new SQS queue called MyQueue
+3.  Listing all queues in your account.
+4.  Sending a message to MyQueue
+5.  Receiving messages from MyQueue
+6.  Deleting a message
+7.  Deleting the test queue
