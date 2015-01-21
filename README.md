@@ -23,7 +23,7 @@ template, and be sure to move the file to the default location
 (~/.aws/credentials) [Linux system] where the sample code will load the credentials from.
 <p>
 <b>WANRNING:</b> To avoid accidental leakage of your credentials, DO NOT keep
-the credentials file in your source directory.
+the credentials file in your source directory.    
 
 ### Part I. Authentication to AWS
 <p>The ProfileCredentialsProvider class will return your [default] credential profile by reading from the credentials file located at (~/.aws/credentials)</p>
@@ -38,4 +38,8 @@ constructor.</p>
 4.  Sending a message to MyQueue
 5.  Receiving messages from MyQueue
 6.  Deleting a message
-7.  Deleting the test queue
+7.  Deleting the test queue    
+
+## Screenshots
+![alt text](/content/programFile.jpg "ProgramFile")
+![alt text](/content/programOutput.jpg "ProgramOutput")
