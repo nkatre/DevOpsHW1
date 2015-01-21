@@ -2,7 +2,7 @@
 
 Create a simple program that will
 
-Part I. Authenicate to AWS
+Part I. Authenicate to AWS    
 Part II. Demonstrate a simple API call.
 
 After completing your program, write a simple description of what you did, and include a screenshot demonstrating your API call.
