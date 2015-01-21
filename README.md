@@ -43,7 +43,7 @@ constructor.
 
 ## Screenshots
 <p>
-<b> Program File </b>
+<b> 1.  Program File </b>
 ![alt text](/content/programFile.jpg "ProgramFile")
-<b> Program Output </b>
+<b> 2.  Program Output </b>
 ![alt text](/content/programOutput.jpg "ProgramOutput")
