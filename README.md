@@ -24,6 +24,7 @@ template, and be sure to move the file to the default location
 <p>
 <b>WANRNING:</b> To avoid accidental leakage of your credentials, DO NOT keep
 the credentials file in your source directory.    
+</p>
 
 ### Part I. Authentication to AWS
 <p>The ProfileCredentialsProvider class will return your [default] credential profile by reading from the credentials file located at (~/.aws/credentials)</p>
@@ -41,5 +42,9 @@ constructor.</p>
 7.  Deleting the test queue    
 
 ## Screenshots
+<p>
+<b> Program File </b>
 ![alt text](/content/programFile.jpg "ProgramFile")
+<b> Program Output </b>
 ![alt text](/content/programOutput.jpg "ProgramOutput")
+</p>
