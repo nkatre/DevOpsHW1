@@ -27,18 +27,23 @@ One of the trade-offs in SQS is that it does not gaurantee first in first out de
 </p>
 
 ## Description Paragraph
-This sample demonstrates how to make basic requests to Amazon SQS using the AWS SDK for Java.
+This sample program demonstrates how to make basic requests to Amazon SQS using the AWS SDK for Java.
 <p>
-<b>Prerequisites:</b> You must have a valid Amazon Web
-Services developer account, and be signed up to use Amazon SQS. For more
-information on Amazon SQS, see http://aws.amazon.com/sqs.
+<b>Prerequisites:</b> 
 <p>
-Fill in your AWS access credentials in the provided credentials file
+One must have a valid Amazon Web
+Services developer account, and be signed up to use Amazon SQS.
+<p>
+Operating System Used: Linux OR Any Linux Distro 
+<p>
+One should fill in their AWS access credentials in the provided credentials file
 template, and be sure to move the file to the default location
 (~/.aws/credentials) [Linux system] where the sample code will load the credentials from.
+This file will then be accessed by the program to authenticate with AWS.
 <p>
 <b>WANRNING:</b> To avoid accidental leakage of your credentials, DO NOT keep
-the credentials file in your source directory.    
+the credentials file in your source directory of this project.    
+The file would be stores in (~/.aws/credentials) [Linux system] location and the program would access this location for authentication, thus preventing leakage of credentials.
 </p>
 
 ### Part I. Authentication to AWS
