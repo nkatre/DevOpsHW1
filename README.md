@@ -58,12 +58,33 @@ constructor.
 <p>To demonstrate the API call to AmazonSQS, I have implemented the following methods:
 
 1.  Authenticate to AWS
+<p>
+The program uses AWSCredentials class for authentication with AWS SQS. The credentials file should be stored in (~/.aws/credentials) [Linux system] location.
+</p>
 2.  Create a new SQS queue called MyQueue
-3.  Listing all queues in your account.
+<p>
+AmazonSQS class is used in this program to create a demo SQS queue. The createQueue() method of this class is responsible for creating AWS SQS.
+</p>
+3.  Listing all queues in one's account.
+<p>
+The listQueues() method of AmazonSQS class is used to list all the queues in one's account.
+</p>
 4.  Sending a message to MyQueue
+<p>
+The sendMessage() method of AmazonSQS class is used to send a message to the queue.
+</p>
 5.  Receiving messages from MyQueue
+<p>
+The receiveMessage() method of AmazonSQS class is used to receive a message from the queue.
+</p>
 6.  Deleting a message
+<p>
+The deleteMessage() method of AmazonSQS class is used to delete a message from the queue.
+</p>
 7.  Deleting the test queue    
+<p>
+The deleteQueue() method of AmazonSQS class is used to delete the queue.
+</p>
 
 ## Screenshots
 <p>
