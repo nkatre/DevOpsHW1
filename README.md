@@ -41,9 +41,12 @@ template, and be sure to move the file to the default location
 (~/.aws/credentials) [Linux system] where the sample code will load the credentials from.
 This file will then be accessed by the program to authenticate with AWS.
 <p>
-<b>WANRNING:</b> To avoid accidental leakage of your credentials, DO NOT keep
-the credentials file in your source directory of this project.    
-The file would be stores in (~/.aws/credentials) [Linux system] location and the program would access this location for authentication, thus preventing leakage of credentials.
+<b>WANRNING:</b> 
+<p>
+To avoid accidental leakage of your credentials, DO NOT keep
+the credentials file in your source directory of this project.   
+<p> 
+The file would be stored in (~/.aws/credentials) [Linux system] location and the program would access this location for authentication, thus preventing leakage of credentials.
 </p>
 
 ### Part I. Authentication to AWS
