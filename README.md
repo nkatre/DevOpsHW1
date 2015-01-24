@@ -24,7 +24,7 @@ The AWS SQS can solves the problems where the producer component of the appicati
 A single Queue in AWS SQS can be used simultaneously by many distributed application components with no requirement for these components to first co-ordinate with each other to share the queue.
 <p>
 One of the trade-offs in SQS is that it does not gaurantee first in first out delivery of messages. For many applications each message can stand on its own, the order of the messages is not important. If in case any application requires order to be preserved, in such cases sequencing information can be stored and send with each message, so that the receiving component can reorder the messages to preserve the order.    
-
+</p>
 
 ## Description Paragraph
 This sample demonstrates how to make basic requests to Amazon SQS using the AWS SDK for Java.
